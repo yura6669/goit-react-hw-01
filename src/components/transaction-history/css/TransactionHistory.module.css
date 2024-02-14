@@ -1,0 +1,18 @@
+.transaction__history__table {
+  border: 2px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+.transaction__history__thead {
+  background: rgb(42 42 42);
+  color: #fff;
+  font-size: 18px;
+}
+
+.transaction__history__thead__tr {
+  border-left: 2px solid #000;
+}

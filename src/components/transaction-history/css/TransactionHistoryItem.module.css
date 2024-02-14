@@ -1,0 +1,13 @@
+.transaction__history__item__td {
+  border: 2px solid #000;
+  text-align: center;
+  background: rgb(211 211 211);
+  color: #000;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.transaction__history__item__td__even {
+  composes: transaction__history__item__td;
+  background: #fff;
+}

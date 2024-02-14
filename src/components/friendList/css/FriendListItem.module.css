@@ -1,0 +1,31 @@
+.friend__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friend__list__item__avatar {
+  width: 100px;
+}
+
+.friend__list__item__name {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.friend__list__item__status {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.friend__list__item__status__online {
+  composes: friend__list__item__status;
+  color: green;
+}
+
+.friend__list__item__status__offline {
+  composes: friend__list__item__status;
+  color: red;
+}
